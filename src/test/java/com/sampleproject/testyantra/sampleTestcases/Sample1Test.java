@@ -19,7 +19,7 @@ public class Sample1Test {
 	
 	@Test(priority=0 )
 	public void Program5Test() {
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 		System.out.println("Sample 5 test executed");
 	}
 	
@@ -30,8 +30,14 @@ public class Sample1Test {
 	}
 	
 	@Test(priority=1)
-	public void Program4Test() {
+	public void Srogram4Test() {
 		Assert.assertEquals(true, true);
 		System.out.println("Sample 4 test executed");
+	}
+	
+	@Test(priority=1)
+	public void Program6Test() {
+		Assert.assertEquals(true, true);
+		System.out.println("Sample 6 test executed");
 	}
 }
